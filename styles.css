@@ -1,0 +1,57 @@
+@font-face {
+    font-family: myfont;
+    src: url(assets/ITCAvantGardeStd-MdCnObl.otf);
+}
+* {
+    font-family: 'myfont';
+}
+body {
+    display: flex;
+    background-image: url("assets/yb1920-2.png");
+    color: white;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    background-attachment: fixed;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.greeting {
+    display: flex;
+    align-self: center;
+    font-size: 48px;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: rgba(17, 18, 20, .8);
+    text-align: center;
+    margin: 0%;
+}
+
+img {
+    display: flex;
+    height: 800px;
+    width: 600px;
+    align-self: center;
+}
