@@ -18,12 +18,13 @@ body {
 .header {
     display: flex;
     flex-direction: column;
+    background-color: #111214;
 }
 
 .greeting {
     display: flex;
     align-self: center;
-    font-size: 48px;
+    font-size: 72px;
 }
 .nav {
     display: flex;
@@ -31,27 +32,59 @@ body {
     justify-content: space-around;
     list-style: none;
     color: white;
+    background-color: #252123;
+    padding: 10px;
+    border-radius: 3px;
+    margin: 0px;
+    padding-top: 12px;
 }
 
 a {
     color: white;
     text-decoration: none;
+    
+}
+
+img {
+    border-radius: 10px;
+    border: 1px solid #1A1810;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 2px solid white;
+    border: 2px solid black;
     border-radius: 5px;
     background-color: rgba(17, 18, 20, .8);
     text-align: center;
     margin: 0%;
 }
 
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 56px;
+    padding:12px;
+}
+.intro-para{
+    display: flex;
+    align-self: flex-start;
+    padding-top: 70px;
+    margin: 30px;
+    flex-direction: column;
+}
+.greet {
+    font-size: 72px;
+    padding-bottom: 35px;
+    margin-top: 9px;
+    font-weight: bold;
+}
+
 img {
     display: flex;
-    height: 800px;
-    width: 600px;
+    height: 900px;
+    width: 700px;
     align-self: center;
 }
